@@ -12,6 +12,11 @@
 [Uu]ser[Ss]ettings/
 *.log
 
+# mac specific setting
+.DS_Store
+
+.vscode/
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -73,7 +78,7 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
-.DS_Store
+
 
 # Crashlytics generated file
 crashlytics-build.properties
